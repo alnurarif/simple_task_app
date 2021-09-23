@@ -1,0 +1,62 @@
+.bg-sky{
+    background-color: #1178E2 !important;
+}
+.bg-light-sky{
+    background-color: #D6EAFF !important;
+}
+.border-color-light-sky{
+    border-color:  #D6EAFF !important;
+}
+.border-color-ash{
+    border-color: #666E76 !important;
+    opacity: 50%;
+}
+.border-color-dark-ash{
+    border-color: #666E76 !important;
+}
+.text-sky{
+    color : #1178E2 !important;
+}
+.text-ash{
+    color : #666E76 !important;
+    opacity: 50%;
+}
+.tasks_container{
+    width : 70%;
+    margin : 0 auto;
+}
+.tasks_section{
+    margin-top: 100px;
+}
+.task_name{
+    display: block;
+    margin: 0px;
+    line-height: 38px;
+    padding: 0px 5px 0px 5px;
+    border-radius: 5px;
+}
+button.margin-right{
+    margin-right : 5px;
+}
+@media(max-width: 768px) {
+    button.full-width {
+        width: 100%!important;  
+    }
+    button.margin-bottom{
+        margin-bottom: 5px!important;
+    }
+    button.margin-right{
+        margin-right : 0px;
+    }
+    .tasks_container{
+        width : 100%;
+    }
+    .tasks_section{
+        margin-top: 20px;
+    }
+}
+@media (min-width: 768px) {
+    .tasks_container{
+        width : 80%;
+    }
+}
